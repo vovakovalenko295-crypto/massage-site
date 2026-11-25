@@ -135,3 +135,17 @@ address { color: var(--muted); font-style: normal; margin-top: .7rem; }
   html { scroll-behavior: auto; }
   .button { transition: none; }
 }
+
+.about-copy {
+  max-width: 68ch;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.about-copy p + p {
+  margin-top: 0.9rem;
+}
+.about-copy a {
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
